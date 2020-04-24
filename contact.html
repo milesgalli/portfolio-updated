@@ -1,122 +1,163 @@
 <!DOCTYPE html>
 <html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
+    <title>Bootstrap Basic Portfolio</title>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Boostrap Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
 
-  <title>Bootstrap Basic Portfolio</title>
+    <!-- Our own CSS stylesheet -->
+    <link rel="stylesheet" href="style.css" media="screen" />
 
-  <!-- Boostrap Stylesheet -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-  <!-- Our own CSS stylesheet -->
-  <link rel="stylesheet" href="style.css" media="screen">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-
-</head>
-
-<body>
-
-  <nav class="navbar navbar-expand-lg  "id="topnavbar">
-    <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-      <a class="navbar-brand" href="skills.html" id="logo">Miles Galli
-        <h5> Junior Full Stack Developer</h5>
-      </a>
-    </ul>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+  <body>
+    <nav class="navbar navbar-expand-lg" id="topnavbar">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-          <li class="nav-item active">
-            <a class="nav-link" href="skills.html">My Skills</a>
-          </li>
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">About</a>
-          </li>
-          
+          <a class="navbar-brand" href="skills.html" id="logo"
+            >Miles Galli
+            <h5>Junior Full Stack Developer</h5>
+          </a>
         </ul>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item"></li>
+            <li class="nav-item active">
+              <a class="nav-link" href="skills.html">My Skills</a>
+            </li>
+            <li>
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
       </div>
-      <!-- /.navbar-collapse -->
-    </div>
 
-    <!-- /.container -->
-  </nav>
+      <!-- /.container -->
+    </nav>
 
-  <!-- Start of container -->
-  <main class="container">
-    <section class="row">
-      <div class="col-md-6">
-        <form class="block form-horizontal" id="form-contact">
-          <h1 class="block-header">Contact</h1>
-          <hr />
-          <div class="form-group">
-            <label for="name" class="col-sm-2 control-label">Name</label>
-            <div class="col-sm-10">
-              <input type="email" class="form-control" id="name" placeholder="Name">
+    <!-- Start of container -->
+    <main class="container">
+      <section class="row">
+        <div class="col-md-6">
+          <form class="block form-horizontal" id="form-contact">
+            <h1 class="block-header">Contact</h1>
+            <hr />
+            <div class="form-group">
+              <label for="name" class="col-sm-2 control-label">Name</label>
+              <div class="col-sm-10">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="name"
+                  placeholder="Name"
+                />
+              </div>
             </div>
-          </div>
-          <div class="form-group">
-            <label for="email" class="col-sm-2 control-label">Email</label>
-            <div class="col-sm-10">
-              <input type="password" class="form-control" id="email" placeholder="Email">
+            <div class="form-group">
+              <label for="email" class="col-sm-2 control-label">Email</label>
+              <div class="col-sm-10">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="email"
+                  placeholder="Email"
+                />
+              </div>
             </div>
-          </div>
-          <div class="form-group">
-            <label class="col-sm-2 control-label" for="msg">Message</label>
-            <div class="col-sm-10">
-              <textarea id="msg" class="form-control" rows="3" placeholder="Message"></textarea>
+            <div class="form-group">
+              <label class="col-sm-2 control-label" for="msg">Message</label>
+              <div class="col-sm-10">
+                <textarea
+                  id="msg"
+                  class="form-control"
+                  rows="3"
+                  placeholder="Message"
+                ></textarea>
+              </div>
             </div>
+            <button class="submit-btn">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <h5 class="contact-title"><b>Contact Information </b></h5>
+          <div class="contact-info-text">
+            <p class="card-text">
+              Email <br />
+              galli.miles@gmail.com
+            </p>
+            <p>
+              LinkedIn Profile <br /><a
+                href="https://www.linkedin.com/in/miles-galli-761a74163/"
+              >
+                https://www.linkedin.com/in/miles-galli-761a74163/</a
+              >
+            </p>
+            <p>
+              The URL to my GitHub repository is <br />
+              <a href="https://github.com/milesgalli"
+                >https://github.com/milesgalli</a
+              >
+            </p>
+            <p>
+              Phone Number <br />
+              (+61) 425 433 834
+            </p>
           </div>
-          <button class="submit-btn">Submit</button>
-        </form>
-      </div>
-      <div class="col-md-6 ">
-        <h5 class="contact-title"> <B>Contact Information </B></h5>
-          <div class="contact-info-text">   
-            <p class="card-text">Email : galli.miles@gmail.com
-            <p> LinkedIn Profile <a href="https://www.linkedin.com/in/miles-galli-761a74163/"> https://www.linkedin.com/in/miles-galli-761a74163/</a></p>
-            <p> The URL to my GitHub repository is <a href="https://github.com/milesgalli">https://github.com/milesgalli</a></p>
-            <p> Phone Number (61) 0425 433 834</p>
-          </div>
-      </div>
-    </section>
+        </div>
+      </section>
+    </main>
+    <!-- End of container -->
 
-  
-  </main>
-  <!-- End of container -->
+    <!-- Start of footer -->
+    <footer class="footer">
+      <div class="two-toned-footer-color"></div>
+      <p class="text-muted text-muted-footer text-center">
+        &copy; Miles Galli
+      </p>
+    </footer>
+    <!-- End of footer -->
 
-  <!-- Start of footer -->
-  <footer class="footer">
-    <div class="two-toned-footer-color"></div>
-    <p class="text-muted text-muted-footer text-center">
-      &copy; Copyright
-    </p>
-  </footer>
-  <!-- End of footer -->
+    <!-- jQuery CDN -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+    ></script>
 
-  <!-- jQuery CDN -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-  <!-- Bootstrap CDN -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script></script>
-
-</body>
-
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
 </html>

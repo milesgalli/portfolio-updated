@@ -1,136 +1,190 @@
 <!DOCTYPE html>
 <html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
+    <title>Bootstrap Basic Portfolio</title>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Boostrap Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <!-- Our own CSS stylesheet -->
+    <link rel="stylesheet" href="style.css" media="screen" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+    rel="stylesheet"
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg" id="topnavbar">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <a class="navbar-brand" href="skills.html" id="logo"
+            >Miles Galli
+            <h5>Junior Full Stack Developer</h5>
+          </a>
+        </ul>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-  <title>Bootstrap Basic Portfolio</title>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item"></li>
+            <li class="nav-item active">
+              <a class="nav-link" href="skills.html">My Skills</a>
+            </li>
+            <li>
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
 
-  <!-- Boostrap Stylesheet -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <!-- Our own CSS stylesheet -->
-  <link rel="stylesheet" href="style.css" media="screen">
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+      <!-- /.container -->
+    </nav>
+    <!-- End of navbar -->
 
-
-</head>
-
-<nav class="navbar navbar-expand-lg  "id="topnavbar">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-    <a class="navbar-brand" href="skills.html" id="logo">Miles Galli
-      <h5> Junior Full Stack Developer</h5>
-    </a>
-  </ul>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-        <li class="nav-item">
-        <li class="nav-item active">
-          <a class="nav-link" href="skills.html">My Skills</a>
-        </li>
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">About</a>
-        </li>
-        
-      </ul>
-    </div>
-    <!-- /.navbar-collapse -->
-  </div>
-
-  <!-- /.container -->
-</nav>
-      <!-- End of navbar -->
-
-  <!-- Start of container -->
-  <div class="container">
-    <main class="row">
-      <div class="col-md-8">
-        <article class="block">
-          <h1 class="block-header">Portfolio</h1>
-          <hr />
-          <div class="row">
-
-            <div class="col-sm-6 col-md-12 col-lg-6">
-              <img class="img-fluid port-image" src="Assets/Project1Photo.PNG" alt="Project 1 ">
-              <h5 class="card-title">Project 1</h5>
-              <p class="card-text">Forecast Websites are difficult to interpret and read. It is difficult to know where the best place to surf will be based on the conditions and a person's surfing ability. Thus a web application that uses Willy Weather API to recommend best surf sports in the Perth metropolitan area has been developed. 
-               <p> The URL of the website is <a href="https://github.com/CazB67/find-surf-spot-app">https://github.com/CazB67/find-surf-spot-app</a></p>
-               <p> The URL of the GitHub repository is <a href="https://github.com/CazB67/find-surf-spot-app">https://github.com/CazB67/find-surf-spot-app</a></p>
-  
+    <!-- Start of container -->
+    <div class="container">
+      <main class="row">
+        <div class="col-md-12">
+          <article class="block">
+            <div class="row">
+              <h1 class="block-header ">
+                Portfolio
+              </h1>
+            
             </div>
-          
-
-            <div class="col-sm-6 col-md-12 col-lg-6">
-              <img class="img-fluid port-image" src="Assets/weatherdashboard.PNG" alt="Weather Image"  height="400" width="400">
-              <h5 class="card-title">Weather API</h5>
+            <br>
+            <div class="row">
+              <div class="col-sm-4 col-md-12 col-lg-8">
+                <img
+                  class="img-fluid port-image"
+                  src="Assets/Project1Photo.PNG"
+                  alt="Project 1 "
+                />
+                <h5 class="card-title "><b> Project 1 </b></h5>
+                <p class="card-text">
+                  Forecast Websites are difficult to interpret and read. It is
+                  difficult to know where the best place to surf will be based
+                  on the conditions and a person's surfing ability. Thus a web
+                  application that uses Willy Weather API to recommend best surf
+                  sports in the Perth metropolitan area has been developed.
+                </p>
+                <p>
+                  The URL of the website is
+                  <a href="https://github.com/CazB67/find-surf-spot-app"
+                    >https://github.com/CazB67/find-surf-spot-app</a
+                  >
+                </p>
+                <p>
+                  The URL of the GitHub repository is
+                  <a href="https://github.com/CazB67/find-surf-spot-app"
+                    >https://github.com/CazB67/find-surf-spot-app</a
+                  >
+                </p>
+              </div>
+              <!-- 
+            <div class="col-sm-4 col-md-12 col-lg-6">
+              <img class="img-fluid port-image" src="" alt="Weather Image"  height="400" width="400">
+              <h5 class="card-title"> Weather API</h5>
               <p class="card-text">This project was to create a web application using the open weather API. The functionality of this appplication was to show the weather forcast for the current weather and 5 day forecast for a city that the user specifies. 
                <p> The URL of the website is <a href=" https://milesgalli.github.io/Homework6/"> https://milesgalli.github.io/Homework6/</a></p>
                <p> The URL of the GitHub repository is <a href=" https://github.com/milesgalli/Homework6"> https://github.com/milesgalli/Homework6</a></p>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-6 col-md-12 col-lg-6">
-              <img class="img-fluid port-image" src="Assets/workday.PNG" alt="Workday Image" height="400" width="400">
-              <h5 class="card-title">Work Day Scheduler </h5>
-              <p class="card-text">This project was to create a work day  scheduler for a 9-5 workday. 
-               <p> The URL of the website is <a href="https://milesgalli.github.io/Homework5/"> https://milesgalli.github.io/Homework5/</a></p>
-               <p> The URL of the GitHub repository is <a href="https://github.com/milesgalli/Homework5"> https://github.com/milesgalli/Homework5</a></p>
+ -->
             </div>
-    
-          </div>
-        </article>
-      </div>
-    </main>
-  </div>
-  <!-- End of container -->
+            <div class="row">
+              <div class="col-sm-4 col-md-12 col-lg-8 ">
+                <img
+                  class="img-fluid port-image"
+                  src="Assets/workday.PNG"
+                  alt="Workday Image"
+                  height="400"
+                  width="400"
+                />
+                <h5 class="card-title"><b>Work Day Scheduler </b></h5>
+                <p class="card-text">
+                  This project was to create a work day scheduler for a 9-5
+                  workday.
+                </p>
+                <p>
+                  The URL of the website is
+                  <a href="https://milesgalli.github.io/Homework5/">
+                    https://milesgalli.github.io/Homework5/</a
+                  >
+                </p>
+                <p>
+                  The URL of the GitHub repository is
+                  <a href="https://github.com/milesgalli/Homework5">
+                    https://github.com/milesgalli/Homework5</a
+                  >
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </main>
+    </div>
+    <!-- End of container -->
 
-  <div class="container">
-    <main class="row">
-      <div class="col-md-8">
-        <article class="block">
-          <h2 class="block-header">Resume</h2>
-           <p> PDF link to Resume 
-            <p>Click to view or download a resume, simply click on the picture </p>
-             	<a href="Miles's Resume (13).pdf"><img src="Assets/pic.jfif" width="153" height="202"alt="Resume"/></a>
-          
-          
-          <hr />
+    <div class="container">
+      <main class="row">
+        <div class="col-md-8">
+          <article class="block">
+            <h2 class="block-header">Resume</h2>
+            <p>PDF link to Resume</p>
+            <p>
+              Click to view or download my resume, simply click on the picture
+            </p>
+
+            <a href="Miles's Resume (13).pdf"
+              ><img src="Assets/pic.jfif" width="153" height="202" alt="Resume"
+            /></a>
+          </article>
         </div>
 
-       </div>
+        <hr />
+      </main>
+    </div>
 
+    <!-- Start of footer -->
+    <footer class="footer">
+      <div class="two-toned-footer-color"></div>
+      <p class="text-muted text-muted-footer text-center">
+        &copy; Miles Galli
+      </p>
+    </footer>
+    <!-- End of footer -->
 
-  <!-- Start of footer -->
-  <footer class="footer">
-    <div class="two-toned-footer-color"></div>
-    <p class="text-muted text-muted-footer text-center">
-      &copy; Copyright 2018 Your Name
-    </p>
-  </footer>
-  <!-- End of footer -->
+    <!-- jQuery CDN -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+    ></script>
 
-  <!-- jQuery CDN -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-  <!-- Bootstrap CDN -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script></script>
-
-</body>
-
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
 </html>

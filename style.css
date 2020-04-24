@@ -24,7 +24,7 @@ main {
 
 /* create styles for use for all white main boxes */
 .block {
-  background-color: #fff;
+  background-color:rgb(71, 75, 79) ;;
 
   padding: 30px;
   margin-bottom: 30px;
@@ -44,7 +44,7 @@ main {
   /* Typography */
   font-size: 30px;
   font-weight: bold;
-  color: ivory;
+  color: #b9b3b3;
 
   /* Visual */
   background: black;
@@ -62,7 +62,7 @@ main {
 
 .nav-link {
   font-size: 28px;
-  color:ivory
+  color:#b9b3b3;
 }
 
 
@@ -112,7 +112,7 @@ main {
   height: 60px;
 
   /* Visual */
-  background-color: rgb(37, 36, 36) ;
+  background-color: black ;
 }
 
 .text-muted-footer {
@@ -120,7 +120,8 @@ main {
   margin-top: 15px;
 
   /* Typography */
-  color: white;
+  color:#b9b3b3; 
+
 }
 
 .two-toned-footer-color {
@@ -129,7 +130,7 @@ main {
   padding-top: 3px;
 
   /* Visual */
-  background-color: #2b2728;
+  background-color: black;
 }
 /* END FOOTER */
 /* --- END STYLES FOR ALL PAGES --- */
@@ -182,7 +183,7 @@ main {
   font-weight: lighter;
 
   /* Typography */
-  color: #fff;
+  color:rgb(185, 179, 179);
 
   /* Visual */
   background-color: #61892F;
@@ -200,15 +201,15 @@ main {
 
 .contact-info-text {
   font-size: 22px;
-  color: gray;
+  color: rgb(185, 179, 179);
 }
 
 /* END CONTACT FORM PAGE */
 
 .col-circle {
 
-  max-width: 100px;
-  height: 100px;
+  max-width: 150px;
+  height: 150px;
   border-radius:50%;
   background-color: rgb(185, 179, 179);
   margin: 5px;
@@ -219,4 +220,48 @@ main {
 
 #form-contact {
   background-color: #474b4f;
+}
+
+#frontend-title {
+  font-size: 30px;
+  color: #86c232; 
+}
+
+
+#backend-title {
+  font-size: 30px;
+  color: #86c232; 
+
+}
+
+.form-group {
+  color: rgb(185, 179, 179);
+  font-size: 20px;
+}
+
+.form-control{
+  background-color: rgb(148, 141, 141);
+  
+}
+
+.about-me-text{
+  color:#b9b3b3; 
+  font-size: 20px;
+
+}
+
+.card-text {
+  color:#b9b3b3; 
+  font-size: 20px;
+
+}
+
+.card-title {
+  color: #86c232; 
+  font-size: 25px;
+}
+
+p {
+  color:#b9b3b3; 
+  font-size: 20px;
 }
