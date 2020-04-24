@@ -37,6 +37,10 @@ main {
   font-weight: bold;
 }
 
+.nav-subtitle{
+  font-size: 25px;
+}
+
 /* NAV START */
 #logo {
   font-family: 'Roboto', sans-serif;
