@@ -1,4 +1,4 @@
-# Updated Porfilio Page 
+# Updated Portfolio Page 
 
 Link to website:
 https://milesgalli.github.io/portfolio-updated/
@@ -11,9 +11,5 @@ https://milesgalli.github.io/portfolio-updated/
 - Added contact details and downloadable resume link 
 
 
-# Future Improvements 
-- The overall design of the website needs improvement. Unfortunetly my css skills at the momenent are not that strong. 
-- Add additional pages such as, a personal blog etc 
-- Add more images and additonal content to pages.  
 
 
