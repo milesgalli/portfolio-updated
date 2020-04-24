@@ -2,34 +2,40 @@
 <html lang="en-us">
 
 <head>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
   <title>Bootstrap Basic Portfolio</title>
-
   <!-- Boostrap Stylesheet -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
   <!-- Our own CSS stylesheet -->
   <link rel="stylesheet" href="style.css" media="screen">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg  "id="topnavbar">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
-      <a class="navbar-brand" href="index.html" id="logo">Miles Galli</a>
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+      <a class="navbar-brand" href="skills.html" id="logo">Miles Galli
+        <h5> Junior Full Stack Developer</h5>
+      </a>
+    </ul>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
         aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item">
+          <li class="nav-item active">
+            <a class="nav-link" href="skills.html">My Skills</a>
+          </li>
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
           <li class="nav-item">
@@ -38,10 +44,12 @@
           <li class="nav-item active">
             <a class="nav-link" href="index.html">About</a>
           </li>
+          
         </ul>
       </div>
       <!-- /.navbar-collapse -->
     </div>
+
     <!-- /.container -->
   </nav>
   <!-- End of navbar -->

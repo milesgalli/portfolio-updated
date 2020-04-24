@@ -14,6 +14,6 @@ https://milesgalli.github.io/portfolio-updated/
 # Future Improvements 
 - The overall design of the website needs improvement. Unfortunetly my css skills at the momenent are not that strong. 
 - Add additional pages such as, a personal blog etc 
-- add more images and additonal content to pages.  
+- Add more images and additonal content to pages.  
 
 

@@ -15,43 +15,55 @@
   <!-- Our own CSS stylesheet -->
   <link rel="stylesheet" href="style.css" media="screen">
 
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <a class="navbar-brand" href="index.html" id="logo">Miles Galli</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" href="contact.html">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">About</a>
-              </li>
-            </ul>
-          </div>
-          <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-      </nav>
-      <!-- End of navbar -->
+  <nav class="navbar navbar-expand-lg  "id="topnavbar">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+      <a class="navbar-brand" href="skills.html" id="logo">Miles Galli
+        <h5> Junior Full Stack Developer</h5>
+      </a>
+    </ul>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+          <li class="nav-item active">
+            <a class="nav-link" href="skills.html">My Skills</a>
+          </li>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+
+    <!-- /.container -->
+  </nav>
 
   <!-- Start of container -->
   <main class="container">
     <section class="row">
       <div class="col-md-6">
-        <form class="block form-horizontal">
+        <form class="block form-horizontal" id="form-contact">
           <h1 class="block-header">Contact</h1>
           <hr />
           <div class="form-group">
@@ -75,16 +87,18 @@
           <button class="submit-btn">Submit</button>
         </form>
       </div>
+      <div class="col-md-6 ">
+        <h5 class="contact-title"> <B>Contact Information </B></h5>
+          <div class="contact-info-text">   
+            <p class="card-text">Email : galli.miles@gmail.com
+            <p> LinkedIn Profile <a href="https://www.linkedin.com/in/miles-galli-761a74163/"> https://www.linkedin.com/in/miles-galli-761a74163/</a></p>
+            <p> The URL to my GitHub repository is <a href="https://github.com/milesgalli">https://github.com/milesgalli</a></p>
+            <p> Phone Number (61) 0425 433 834</p>
+          </div>
+      </div>
     </section>
 
-    <div class="col-md-6 ">
-     <img class="img-fluid port-image" src="" alt="">
-     <h5 class="card-title">Contact Information </h5>
-     <p class="card-text">Email : galli.miles@gmail.com
-      <p> Linked In Profile <a href="https://www.linkedin.com/in/miles-galli-761a74163/"> https://www.linkedin.com/in/miles-galli-761a74163/</a></p>
-      <p> The URL to my GitHub repository is <a href="https://github.com/milesgalli">https://github.com/milesgalli</a></p>
-      <p> Phone Number (61) 0425 433 834</p>
-   </div>
+  
   </main>
   <!-- End of container -->
 
